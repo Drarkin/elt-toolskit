@@ -1,0 +1,33 @@
+{
+  "id": "elt-toolkit",
+  "name":"Mundane Activities Tracker, by elt"
+  "title": "Eltsiht Toolskit",
+  "description": "Tracking and monitor mundane activities like Inn room"
+  "version": "1.0.0",
+  "url": "https://github.com/Drarkin/elt-toolskit.git",
+  "minimumCoreVersion": "12.331",
+  "compatibleCoreVersion": "331",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  }
+  "authors": [
+    {
+      "name": "Nikrard",
+      "instagram": "nikrard"
+    }
+  ]
+  "system": ["dnd5e"]
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "4.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": ["main/core.js"]
+}
